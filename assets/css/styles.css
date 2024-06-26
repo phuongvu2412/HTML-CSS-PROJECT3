@@ -9,7 +9,14 @@ body {
     font-family: "Sora", sans-serif;
 }
 :root {
-    --header-bg: #8dc26f;
+    --header-bg: linear-gradient(
+        to right top,
+        #56ad7c,
+        #63b379,
+        #71b876,
+        #7fbd72,
+        #8dc26f
+    );
 }
 
 /*Common styles*/
@@ -287,7 +294,7 @@ a {
 /* Work */
 .work {
     padding: 80px 0;
-    background: #8dc26f;
+    background: var(--header-bg);
 }
 .work__desc {
     width: 468px;
@@ -443,7 +450,7 @@ a {
     align-items: center;
     column-gap: 130px;
     padding: 0px 70px;
-    background: #8dc26f;
+    background: var(--header-bg);
 }
 .install__img {
     display: block;
@@ -583,7 +590,7 @@ a {
     text-align: center;
     padding: 100px 179px;
     border-radius: 4px;
-    background: #8dc26f;
+    background: var(--header-bg);
 }
 .appointment-heading {
     position: relative;
@@ -612,7 +619,7 @@ a {
 
 /* Footer */
 .footer {
-    background: #8dc26f;
+    background: var(--header-bg);
     padding: 100px 135px 125px;
     font-family: Open Sans, sans-serif;
 }
